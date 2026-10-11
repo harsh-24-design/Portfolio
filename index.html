@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Portfolio of Harsh Raghuwanshi - Aspiring Software Engineer, C++ Developer, and Problem Solver based in Bhopal, Madhya Pradesh, India.">
+  <meta name="keywords" content="Harsh Raghuwanshi, Software Engineer, C++, Portfolio, B.Tech IT, Bansal Institute, DSA, Bhopal">
+  <meta name="author" content="Harsh Raghuwanshi">
+  <meta name="theme-color" content="#000000">
+
+  <title>Harsh Raghuwanshi | Aspiring Software Engineer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Inline Favicon (Developer SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%233B82F6'><path d='M8 3 2 9l6 6 1.4-1.4L4.8 9l4.6-4.6L8 3zm8 0-1.4 1.4L19.2 9l-4.6 4.6L16 15l6-6-6-6zm-3.8.3L8.6 20.7l1.9.6 3.6-17.4-1.9-.6z'/></svg>">
+</head>
+<body>
+
+  <!-- ===================================================================
+       NAVIGATION BAR
+       =================================================================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Harsh Raghuwanshi Home">
+        <span class="nav-logo-badge">HR</span>
+        <span class="nav-logo-text">HARSH RAGHUWANSHI</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm js-open-resume js-preview-modal-only" type="button" title="Preview Resume in Modal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+          <span>Preview</span>
+        </button>
+
+        <!-- Direct Resume Download -->
+        <a href="assets/resume/Harsh_Raghuwanshi_Resume.pdf" download="Harsh_Raghuwanshi_Resume.pdf" class="btn btn-primary btn-sm" title="Download Resume as PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================================================================
+       HERO SECTION
+       =================================================================== -->
+  <header class="section hero-section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-pill">
+          <span class="status-dot"></span>
+          <span>Open to Software Engineering Opportunities</span>
+        </div>
+
+        <div class="hero-greeting">Hi, I'm</div>
+        <h1 class="hero-name">Harsh Raghuwanshi</h1>
+        
+        <div class="hero-title">
+          <span>Aspiring Software Engineer</span>
+          <span class="divider">|</span>
+          <span>C++ Developer</span>
+          <span class="divider">|</span>
+          <span>Problem Solver</span>
+        </div>
+
+        <p class="hero-intro">
+          I'm an aspiring Software Engineer with a strong interest in software development, problem-solving, data structures, and building practical applications. I enjoy learning new technologies and developing solutions that make everyday tasks easier.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#projects" class="btn btn-primary btn-lg">
+            <span>View My Projects</span>
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          
+          <a href="assets/resume/Harsh_Raghuwanshi_Resume.pdf" download="Harsh_Raghuwanshi_Resume.pdf" class="btn btn-secondary btn-lg" title="Download Official Resume PDF">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Download Resume</span>
+          </a>
+
+          <button class="btn btn-outline btn-lg js-open-resume js-preview-modal-only" type="button" title="View interactive resume preview">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+            <span>Preview Resume</span>
+          </button>
+
+          <a href="#contact" class="btn btn-outline btn-lg">Contact Me</a>
+        </div>
+
+        <div class="hero-socials">
+          <!-- GitHub -->
+          <a href="https://github.com/harsh-raghu-24" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub: harsh-raghu-24" aria-label="GitHub Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/Harsh_Raghuwanshi" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn: Harsh_Raghuwanshi" aria-label="LinkedIn Profile">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+
+          <!-- Email -->
+          <a href="mailto:harshraghu83552@gmail.com" class="social-link" title="Email: harshraghu83552@gmail.com" aria-label="Send Email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+          </a>
+
+          <!-- Phone -->
+          <a href="tel:+919584865269" class="social-link" title="Phone: +91-9584865269" aria-label="Call Harsh">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <div class="hero-glow-back"></div>
+          <div class="hero-image-card">
+            <div class="hero-image-inner">
+              <!-- Official Profile Photograph of Harsh Raghuwanshi -->
+              <img src="assets/images/profile.jpg" alt="Harsh Raghuwanshi" id="hero-profile-img" width="360" height="360">
+            </div>
+            <div class="hero-floating-badge">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+              <span>C++ &amp; DSA Focused</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       ABOUT ME SECTION
+       =================================================================== -->
+  <section class="section section-alt" id="about">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">About Me</div>
+        <h2 class="section-title">Background &amp; Professional Focus</h2>
+        <p class="section-subtitle">Dedicated to mastering core computer science fundamentals and engineering purposeful software.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text-content">
+          <p class="about-paragraph">
+            I am an undergraduate student pursuing my <strong>Bachelor of Technology (B.Tech) in Information Technology</strong> at <strong>Bansal Institute of Science &amp; Technology, Bhopal</strong> (Class of 2024–2028).
+          </p>
+          <p class="about-paragraph">
+            My primary technical passion lies in software engineering, programming, and algorithm design. I have developed a solid foundation in <strong>C and C++</strong>, object-oriented principles, and data structures. I approach software development with a problem-solver mindset, seeking to understand low-level operations while building clean, efficient, and maintainable systems.
+          </p>
+          <p class="about-paragraph">
+            Whether creating applications to automate daily routines or designing administrative record systems, I take pride in developing practical solutions that minimize manual friction and enhance operational accuracy. I am actively seeking opportunities to contribute to dynamic software teams while expanding my technical horizons.
+          </p>
+
+          <div class="about-objective-box">
+            <div class="about-objective-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span>Career Objective</span>
+            </div>
+            <div class="about-objective-desc">
+              "To obtain a challenging position as a Software Developer where I can apply my skills in full-stack development, data structures, and problem-solving to contribute to innovative projects while continuously learning and growing in a collaborative and fast-paced environment."
+            </div>
+          </div>
+        </div>
+
+        <div class="about-highlights-grid">
+          <div class="about-stat-card">
+            <div class="about-stat-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="about-stat-title">Current Education</div>
+            <div class="about-stat-value">B.Tech in IT</div>
+            <div class="about-stat-sub">Bansal Institute, Bhopal (2024–2028)</div>
+          </div>
+
+          <div class="about-stat-card">
+            <div class="about-stat-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="about-stat-title">Academic Score</div>
+            <div class="about-stat-value">7.49 CGPA</div>
+            <div class="about-stat-sub">Till 3rd Semester</div>
+          </div>
+
+          <div class="about-stat-card">
+            <div class="about-stat-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="about-stat-title">Core Languages</div>
+            <div class="about-stat-value">C &amp; C++</div>
+            <div class="about-stat-sub">Systems &amp; OOP Foundations</div>
+          </div>
+
+          <div class="about-stat-card">
+            <div class="about-stat-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="about-stat-title">Internships</div>
+            <div class="about-stat-value">Code Alpha &amp; AI</div>
+            <div class="about-stat-sub">NASSCOM &bull; HCLTech Exposure</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       TECHNICAL SKILLS SECTION
+       =================================================================== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Competencies</div>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Core engineering skills, tools, and computer science fundamentals listed in my official resume.</p>
+      </div>
+
+      <div class="skills-container">
+        <!-- 1. Programming Languages -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Programming Languages</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              C
+            </span>
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              C++
+            </span>
+          </div>
+        </div>
+
+        <!-- 2. Web Development -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Web Development</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              HTML
+            </span>
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              CSS
+            </span>
+          </div>
+        </div>
+
+        <!-- 3. Databases -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Database</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              SQL
+            </span>
+          </div>
+        </div>
+
+        <!-- 4. Core Computer Science -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                <rect x="9" y="9" width="6" height="6"></rect>
+                <line x1="9" y1="1" x2="9" y2="4"></line>
+                <line x1="15" y1="1" x2="15" y2="4"></line>
+                <line x1="9" y1="20" x2="9" y2="23"></line>
+                <line x1="15" y1="20" x2="15" y2="23"></line>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Core Computer Science</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">Data Structures &amp; Algorithms (DSA)</span>
+            <span class="skill-badge">Operating Systems</span>
+            <span class="skill-badge">Database Management Systems (DBMS)</span>
+            <span class="skill-badge">Object-Oriented Programming (OOP)</span>
+          </div>
+        </div>
+
+        <!-- 5. Developer Tools -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Developer Tools</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              Git
+            </span>
+            <span class="skill-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/></svg>
+              GitHub
+            </span>
+          </div>
+        </div>
+
+        <!-- 6. Interpersonal / Soft Skills -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="skill-category-title">Soft Skills</h3>
+          </div>
+          <div class="skill-badges-grid">
+            <span class="skill-badge">Communication</span>
+            <span class="skill-badge">Teamwork</span>
+            <span class="skill-badge">Leadership</span>
+            <span class="skill-badge">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       EDUCATION SECTION
+       =================================================================== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Academic Background</div>
+        <h2 class="section-title">Education</h2>
+        <p class="section-subtitle">Verified academic qualifications and educational track record.</p>
+      </div>
+
+      <div class="education-timeline">
+        <!-- 1. Undergraduate Degree -->
+        <div class="education-card">
+          <div class="education-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+              <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+            </svg>
+          </div>
+          <div class="education-main">
+            <div class="education-degree">Bachelor of Technology (B.Tech) — Information Technology</div>
+            <div class="education-institute">Bansal Institute of Science &amp; Technology, Bhopal, Madhya Pradesh, India</div>
+            <div class="education-details">
+              <span>Department of Information Technology</span>
+              <span>&bull;</span>
+              <span>Full-time Degree Program</span>
+            </div>
+            <span class="education-date">Academic Duration: 2024 – 2028</span>
+          </div>
+          <div class="education-score-pill">
+            <div>CGPA: 7.49</div>
+            <div style="font-size:0.75rem; font-weight:500; color:#9ca3af;">Till 3rd Semester</div>
+          </div>
+        </div>
+
+        <!-- 2. Class XII -->
+        <div class="education-card">
+          <div class="education-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <div class="education-main">
+            <div class="education-degree">Higher Secondary Certificate (Class XII)</div>
+            <div class="education-institute">New Sarvodaya Higher Secondary School, Madhya Pradesh, India</div>
+            <div class="education-details">
+              <span>Board of Secondary Education, Madhya Pradesh (MP Board)</span>
+            </div>
+            <span class="education-date">Academic Year: 2023 – 2024</span>
+          </div>
+          <div class="education-score-pill">
+            <div>75.4%</div>
+            <div style="font-size:0.75rem; font-weight:500; color:#9ca3af;">Class XII Examination</div>
+          </div>
+        </div>
+
+        <!-- 3. Class X -->
+        <div class="education-card">
+          <div class="education-icon-box">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <div class="education-main">
+            <div class="education-degree">Secondary School Certificate (Class X)</div>
+            <div class="education-institute">Jawahar Navodaya Vidyalaya, Madhya Pradesh, India</div>
+            <div class="education-details">
+              <span>Board of Secondary Education, Madhya Pradesh (MP Board)</span>
+            </div>
+            <span class="education-date">Academic Year: 2021 – 2022</span>
+          </div>
+          <div class="education-score-pill">
+            <div>82.4%</div>
+            <div style="font-size:0.75rem; font-weight:500; color:#9ca3af;">Class X Examination</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       PROJECTS SECTION
+       =================================================================== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Featured Work</div>
+        <h2 class="section-title">Software Projects</h2>
+        <p class="section-subtitle">Real-world applications built with an emphasis on logic, efficiency, and usability.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Staff Management System -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">C++</span>
+              <span class="project-tag">Data Management</span>
+            </div>
+            <h3 class="project-title">Staff Management System</h3>
+            <p class="project-desc">
+              A staff management application designed to help administrators manage staff records, monitor performance, and generate reports while reducing manual work and improving record accuracy.
+            </p>
+            <div class="project-footer">
+              <span class="btn btn-sm btn-disabled" style="opacity: 0.75;" title="C++ Desktop Application">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                <span>C++ Desktop Application</span>
+              </span>
+              <span class="btn btn-sm btn-disabled" title="Repository not yet published">Academic Project</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Health Reminder Application -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Automation</span>
+            </div>
+            <h3 class="project-title">Health Reminder Application</h3>
+            <p class="project-desc">
+              A reminder application designed to help users remember everyday activities such as drinking water and taking medicines.
+            </p>
+            <div class="project-footer">
+              <a href="https://github.com/harsh-24-design/health-reminder" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" title="View Health Reminder Repository on GitHub">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                <span>View Repo</span>
+              </a>
+              <span class="btn btn-sm btn-disabled" title="Desktop Notification Utility">Python App</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Alumni Record Management System -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <div class="project-tags">
+              <span class="project-tag">Database</span>
+              <span class="project-tag">Record System</span>
+            </div>
+            <h3 class="project-title">Alumni Record Management System</h3>
+            <p class="project-desc">
+              A structured record management system designed to organize, maintain, and retrieve alumni profiles, academic history, and contact information efficiently.
+            </p>
+            <div class="project-footer">
+              <span class="btn btn-sm btn-disabled" style="opacity: 0.75;" title="Database & Record Management System">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+                <span>Database System</span>
+              </span>
+              <span class="btn btn-sm btn-disabled" title="Repository not yet published">Academic Concept</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       INTERNSHIP & EXPERIENCE SECTION
+       =================================================================== -->
+  <section class="section section-alt" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Career Milestones</div>
+        <h2 class="section-title">Internships &amp; Experience</h2>
+        <p class="section-subtitle">Hands-on internships and technology domain engagements documented in my resume.</p>
+      </div>
+
+      <div class="experience-timeline">
+        <!-- 1. Code Alpha -->
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="experience-org-block">
+              <div class="experience-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="experience-title">Code Alpha</h3>
+                <div class="experience-domain">Domain: C++</div>
+              </div>
+            </div>
+            <div class="experience-duration-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>1-Month Virtual Internship</span>
+            </div>
+          </div>
+          <p class="experience-body">
+            Completed a virtual internship focused on C++. Worked on practical programming assignments, deepening knowledge of C++ syntax, object-oriented concepts, algorithm design, and code optimization.
+          </p>
+        </div>
+
+        <!-- 2. NASSCOM HCLTech -->
+        <div class="experience-card">
+          <div class="experience-header">
+            <div class="experience-org-block">
+              <div class="experience-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="experience-title">NASSCOM &bull; HCLTech</h3>
+                <div class="experience-domain">Domain: Artificial Intelligence</div>
+              </div>
+            </div>
+            <div class="experience-duration-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 6v6l4 2"></path>
+              </svg>
+              <span>Technology Initiative</span>
+            </div>
+          </div>
+          <p class="experience-body">
+            Domain: Artificial Intelligence. Participated in the technology initiative conducted by NASSCOM in partnership with HCLTech, gaining valuable perspective into AI methodologies and industry-standard computational applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CERTIFICATIONS SECTION
+       =================================================================== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Continuous Learning</div>
+        <h2 class="section-title">Certifications</h2>
+        <p class="section-subtitle">Verified courses, certifications, and technical accreditations.</p>
+      </div>
+
+      <div class="cert-grid">
+        <!-- 1. C++ Certification -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <h3 class="cert-title">C++ Certification</h3>
+          <div class="cert-issuer">Udemy</div>
+          <div class="cert-date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>November 2024</span>
+          </div>
+        </div>
+
+        <!-- 2. C Certification -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+          </div>
+          <h3 class="cert-title">C Certification</h3>
+          <div class="cert-issuer">Simplilearn</div>
+          <div class="cert-date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>October 2024</span>
+          </div>
+        </div>
+
+        <!-- 3. OCI Certification -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+            </svg>
+          </div>
+          <h3 class="cert-title">OCI Certification</h3>
+          <div class="cert-issuer">Oracle</div>
+          <div class="cert-date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>November 2025</span>
+          </div>
+        </div>
+
+        <!-- 4. Fundamentals of OOP -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+          </div>
+          <h3 class="cert-title">Fundamentals of Object-Oriented Programming</h3>
+          <div class="cert-issuer">Core Computer Science</div>
+          <div class="cert-date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>2026</span>
+          </div>
+        </div>
+
+        <!-- 5. CS50 Python -->
+        <div class="cert-card">
+          <div class="cert-badge-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+          </div>
+          <h3 class="cert-title">CS50’s Introduction to Programming with Python</h3>
+          <div class="cert-issuer">CS50 &bull; Harvard Courseware</div>
+          <div class="cert-date">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>September 2026</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       ACHIEVEMENTS SECTION
+       =================================================================== -->
+  <section class="section section-alt" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Competitions &amp; Honors</div>
+        <h2 class="section-title">Achievements</h2>
+        <p class="section-subtitle">Recognition earned through problem-solving and technical challenges.</p>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- 1. Tech Escape Room -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+          <div class="achievement-info">
+            <h3 class="achievement-title">Tech Escape Room</h3>
+            <div class="achievement-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>Runner-up</span>
+            </div>
+            <p style="font-size:0.88rem; color:#9ca3af; margin-top:4px;">Demonstrated rapid algorithmic reasoning and team troubleshooting under timed constraints.</p>
+          </div>
+        </div>
+
+        <!-- 2. Debugging Competition -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+          </div>
+          <div class="achievement-info">
+            <h3 class="achievement-title">Debugging Competition</h3>
+            <div class="achievement-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              <span>Runner-up</span>
+            </div>
+            <p style="font-size:0.88rem; color:#9ca3af; margin-top:4px;">Successfully identified, diagnosed, and rectified logic bugs and memory issues in competitive codebases.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CONTACT SECTION
+       =================================================================== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Interested in discussing opportunities, projects, or collaborations? Feel free to reach out.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Cards -->
+        <div class="contact-info-list">
+          <!-- Email Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Email Address</div>
+                <a href="mailto:harshraghu83552@gmail.com" class="contact-item-value" title="Send email to Harsh">harshraghu83552@gmail.com</a>
+              </div>
+            </div>
+            <button class="contact-copy-btn js-copy-btn" data-copy="harshraghu83552@gmail.com" title="Copy email address" aria-label="Copy email">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">Phone Number</div>
+                <a href="tel:+919584865269" class="contact-item-value" title="Call Harsh">+91-9584865269</a>
+              </div>
+            </div>
+            <button class="contact-copy-btn js-copy-btn" data-copy="+91-9584865269" title="Copy phone number" aria-label="Copy phone number">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- LinkedIn Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">LinkedIn Profile</div>
+                <a href="https://linkedin.com/in/Harsh_Raghuwanshi" target="_blank" rel="noopener noreferrer" class="contact-item-value">Harsh_Raghuwanshi</a>
+              </div>
+            </div>
+            <a href="https://linkedin.com/in/Harsh_Raghuwanshi" target="_blank" rel="noopener noreferrer" class="contact-copy-btn" title="Open LinkedIn" aria-label="Open LinkedIn">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+
+          <!-- GitHub Card -->
+          <div class="contact-item-card">
+            <div class="contact-item-left">
+              <div class="contact-item-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </div>
+              <div class="contact-item-details">
+                <div class="contact-item-label">GitHub Profile</div>
+                <a href="https://github.com/harsh-raghu-24" target="_blank" rel="noopener noreferrer" class="contact-item-value">harsh-raghu-24</a>
+              </div>
+            </div>
+            <a href="https://github.com/harsh-raghu-24" target="_blank" rel="noopener noreferrer" class="contact-copy-btn" title="Open GitHub" aria-label="Open GitHub">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form Card -->
+        <div class="contact-form-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name *</label>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Recruiter / HR / Colleague" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address *</label>
+              <input type="email" id="email" class="form-control" placeholder="name@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Internship Opportunity / Inquiry">
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Your Message *</label>
+              <textarea id="message" class="form-control" placeholder="Write your message here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       RESUME PREVIEW MODAL
+       =================================================================== -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="resumeModalTitle">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title" id="resumeModalTitle">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Harsh Raghuwanshi — Resume</span>
+        </h3>
+        <button class="modal-close-btn js-close-resume" aria-label="Close resume preview">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <div class="resume-paper-view">
+          <div style="border-bottom: 2px solid #2563eb; padding-bottom: 12px; margin-bottom: 16px;">
+            <h2 style="font-size: 1.6rem; font-weight: 800; color: #0f172a; text-transform: uppercase;">Harsh Raghuwanshi</h2>
+            <div style="color: #2563eb; font-weight: 600; font-size: 0.95rem; margin-top: 2px;">Aspiring Software Engineer | C++ Developer | Problem Solver</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.85rem; color: #4b5563; margin-top: 6px;">
+              <span>Email: harshraghu83552@gmail.com</span>
+              <span>Phone: +91-9584865269</span>
+              <span>LinkedIn: Harsh_Raghuwanshi</span>
+              <span>GitHub: harsh-raghu-24</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <h4 style="font-size: 0.95rem; text-transform: uppercase; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 6px; color: #111827;">Career Objective</h4>
+            <p style="font-size: 0.88rem; color: #374151; line-height: 1.5;">To obtain a challenging position as a Software Developer where I can apply my skills in full-stack development, data structures, and problem-solving to contribute to innovative projects while continuously learning and growing in a collaborative and fast-paced environment.</p>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <h4 style="font-size: 0.95rem; text-transform: uppercase; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 6px; color: #111827;">Education</h4>
+            <div style="margin-bottom: 6px;">
+              <strong style="color: #111827; font-size: 0.9rem;">Bansal Institute of Science &amp; Technology, Bhopal</strong> (2024–2028)<br>
+              <span style="font-size: 0.85rem; color: #4b5563;">B.Tech in Information Technology &bull; CGPA: 7.49 (till 3rd Semester)</span>
+            </div>
+            <div style="margin-bottom: 6px;">
+              <strong style="color: #111827; font-size: 0.9rem;">New Sarvodaya Hr. Sec. School, MP</strong> (2023–2024)<br>
+              <span style="font-size: 0.85rem; color: #4b5563;">Class XII (MP Board) &bull; Percentage: 75.4%</span>
+            </div>
+            <div>
+              <strong style="color: #111827; font-size: 0.9rem;">Jawahar Navodaya Vidyalaya, MP</strong> (2021–2022)<br>
+              <span style="font-size: 0.85rem; color: #4b5563;">Class X (MP Board) &bull; Percentage: 82.4%</span>
+            </div>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <h4 style="font-size: 0.95rem; text-transform: uppercase; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 6px; color: #111827;">Skills</h4>
+            <p style="font-size: 0.86rem; color: #374151; line-height: 1.6;">
+              <strong>Languages:</strong> C, C++ &bull; 
+              <strong>Web:</strong> HTML, CSS &bull; 
+              <strong>Databases:</strong> SQL &bull; 
+              <strong>Core CS:</strong> DSA, Operating Systems, DBMS, OOP &bull; 
+              <strong>Tools:</strong> Git, GitHub &bull; 
+              <strong>Soft Skills:</strong> Communication, Teamwork, Leadership, Time Management
+            </p>
+          </div>
+
+          <div style="margin-bottom: 14px;">
+            <h4 style="font-size: 0.95rem; text-transform: uppercase; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 6px; color: #111827;">Projects</h4>
+            <div style="margin-bottom: 6px;">
+              <strong style="color: #111827; font-size: 0.9rem;">Staff Management System | C++:</strong>
+              <span style="font-size: 0.85rem; color: #4b5563;"> The system enables administration to efficiently manage staff records, monitor performance, and generate reports.</span>
+            </div>
+            <div style="margin-bottom: 6px;">
+              <strong style="color: #111827; font-size: 0.9rem;">Health Reminder Application | Python (<a href="https://github.com/harsh-24-design/health-reminder" target="_blank" style="color:#2563eb; text-decoration:none;">GitHub</a>):</strong>
+              <span style="font-size: 0.85rem; color: #4b5563;"> The system enables automatic reminders for drinking water and taking medicine.</span>
+            </div>
+            <div>
+              <strong style="color: #111827; font-size: 0.9rem;">Alumni Record Management System:</strong>
+              <span style="font-size: 0.85rem; color: #4b5563;"> Centralized record management system to maintain alumni records and profiles.</span>
+            </div>
+          </div>
+
+          <div>
+            <h4 style="font-size: 0.95rem; text-transform: uppercase; border-bottom: 1px solid #e5e7eb; padding-bottom: 4px; margin-bottom: 6px; color: #111827;">Certifications &amp; Achievements</h4>
+            <p style="font-size: 0.85rem; color: #4b5563; line-height: 1.5;">
+              &bull; C++ (Udemy, Nov 2024) &bull; C (Simplilearn, Oct 2024) &bull; OCI (Oracle, Nov 2025) &bull; OOP Fundamentals (2026) &bull; CS50 Python (Sep 2026)<br>
+              &bull; Tech Escape Room Runner-up &bull; Debugging Competition Runner-Up
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="assets/resume/Harsh_Raghuwanshi_Resume.html" target="_blank" class="btn btn-outline btn-sm">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          <span>Open Printable Resume</span>
+        </a>
+
+        <a href="assets/resume/Harsh_Raghuwanshi_Resume.pdf" download="Harsh_Raghuwanshi_Resume.pdf" class="btn btn-primary btn-sm">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Download PDF Resume</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notice" id="toastNotice" role="status" aria-live="polite">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+      <polyline points="22 4 12 14.01 9 11.01"></polyline>
+    </svg>
+    <span class="toast-text">Message</span>
+  </div>
+
+  <!-- ===================================================================
+       FOOTER
+       =================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span style="color:var(--accent);">HR &bull;</span> HARSH RAGHUWANSHI
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Harsh Raghuwanshi. All rights reserved. Crafted with clean code.
+        </div>
+
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top of page" title="Back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

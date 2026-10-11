@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0a0a0a" />
+    </linearGradient>
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#262626" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="circle-clip">
+      <circle cx="200" cy="200" r="185" />
+    </clipPath>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="400" height="400" fill="#0a0a0a" rx="40" />
+
+  <!-- Outer Ambient Glow -->
+  <circle cx="200" cy="180" r="160" fill="url(#glow)" />
+
+  <g clip-path="url(#circle-clip)">
+    <!-- Inner Background -->
+    <circle cx="200" cy="200" r="185" fill="url(#bg-grad)" stroke="#262626" stroke-width="2" />
+    
+    <!-- Subtle Grid Pattern in background -->
+    <path d="M50 100 H350 M50 150 H350 M50 200 H350 M50 250 H350 M50 300 H350" stroke="#1f2937" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4" />
+    <path d="M100 50 V350 M150 50 V350 M200 50 V350 M250 50 V350 M300 50 V350" stroke="#1f2937" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.4" />
+
+    <!-- Stylized Developer Silhouette with Elegant Modern Lines -->
+    <!-- Head -->
+    <circle cx="200" cy="148" r="54" fill="#171923" stroke="#2d3748" stroke-width="2.5" />
+    <!-- Face / Inner Highlight -->
+    <circle cx="200" cy="148" r="48" fill="#1e2433" />
+    
+    <!-- Developer Glasses / Headset subtle accent -->
+    <path d="M172 144 Q200 148 228 144" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" fill="none" />
+    <rect x="170" y="137" width="24" height="15" rx="3" fill="#0f172a" stroke="#3b82f6" stroke-width="2" />
+    <rect x="206" y="137" width="24" height="15" rx="3" fill="#0f172a" stroke="#3b82f6" stroke-width="2" />
+    <path d="M194 144 H206" stroke="#3b82f6" stroke-width="2" />
+
+    <!-- Shoulders / Torso -->
+    <path d="M106 310 C106 242 146 226 200 226 C254 226 294 242 294 310 Z" fill="#161b26" stroke="#2d3748" stroke-width="2" />
+    <!-- Collar / Hoodie V -->
+    <path d="M176 226 L200 262 L224 226" fill="#1e2433" stroke="#3b82f6" stroke-width="2" />
+
+    <!-- Code Brackets Overlay -->
+    <path d="M90 170 L65 195 L90 220" stroke="#3b82f6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75" />
+    <path d="M310 170 L335 195 L310 220" stroke="#3b82f6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75" />
+    
+    <!-- Monogram Badge "HR" -->
+    <rect x="160" y="325" width="80" height="28" rx="14" fill="#0a0a0a" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="200" y="344" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="2" text-anchor="middle">HR • DEV</text>
+  </g>
+
+  <!-- High-Tech Outer Boundary Ring -->
+  <circle cx="200" cy="200" r="185" fill="none" stroke="url(#ring-grad)" stroke-width="3" />
+  
+  <!-- Active Status Indicator Dot -->
+  <circle cx="318" cy="290" r="12" fill="#0a0a0a" stroke="#262626" stroke-width="2" />
+  <circle cx="318" cy="290" r="7" fill="#10b981" />
+</svg>
