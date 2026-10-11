@@ -56,7 +56,7 @@ portfolio/
 3. **About Me:**
    - Undergraduate Information Technology student at Bansal Institute of Science & Technology, Bhopal (2024–2028)
    - Official Career Objective quote box
-   - Fast highlights: Current Education, CGPA (7.49 till 3rd sem), Core Languages (C & C++), and Internships
+   - Fast highlights: Current Education, CGPA (7.49 till 3rd sem), Core Languages (C & C++, Python), and Internships
 4. **Technical Skills:**
    - Categorized cleanly into Programming Languages, Web Development, Databases, Core Computer Science, Developer Tools, and Soft Skills
    - Clean badges with SVG icons — *no artificial or deceptive progress percentage bars*
